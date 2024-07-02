@@ -3,8 +3,8 @@
 # Install CLI
 - Install-Package NuGet.CommandLine
 # Create nuspec file
-- nuget spec [project name]
+- nuget spec [Package ID]
 # Create nupkg file
-- nuget pack [project name]
+- nuget pack [Package ID]
 # Push nupkg file
 - nuget push [YourPackage.nupkg] -Source [NuGet Server] -Api-Key [ApiKey]
